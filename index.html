@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkers, Timothy-P</title>
+</head>
+<body>
+    <div id="Board" class="wrapper">
+        <div id="Row1" class="row">
+            <div colomn="1" row="1" class="dsquare borderstuff" onclick="Click(event)" id="1-1"></div>
+            <div colomn="2" row="1" class="lsquare borderstuff" onclick="Click(event)" id="1-2"></div>
+            <div colomn="3" row="1" class="dsquare borderstuff" onclick="Click(event)" id="1-3"></div>
+            <div colomn="4" row="1" class="lsquare borderstuff" onclick="Click(event)" id="1-4"></div>
+            <div colomn="5" row="1" class="dsquare borderstuff" onclick="Click(event)" id="1-5"></div>
+            <div colomn="6" row="1" class="lsquare borderstuff" onclick="Click(event)" id="1-6"></div>
+            <div colomn="7" row="1" class="dsquare borderstuff" onclick="Click(event)" id="1-7"></div>
+            <div colomn="8" row="1" class="lsquare borderstuff" onclick="Click(event)" id="1-8"></div>
+        </div>
+        <div id="Row2" class="row">
+            <div colomn="1" row="2" class="lsquare borderstuff" onclick="Click(event)" id="2-1"></div>
+            <div colomn="2" row="2" class="dsquare borderstuff" onclick="Click(event)" id="2-2"></div>
+            <div colomn="3" row="2" class="lsquare borderstuff" onclick="Click(event)" id="2-3"></div>
+            <div colomn="4" row="2" class="dsquare borderstuff" onclick="Click(event)" id="2-4"></div>
+            <div colomn="5" row="2" class="lsquare borderstuff" onclick="Click(event)" id="2-5"></div>
+            <div colomn="6" row="2" class="dsquare borderstuff" onclick="Click(event)" id="2-6"></div>
+            <div colomn="7" row="2" class="lsquare borderstuff" onclick="Click(event)" id="2-7"></div>
+            <div colomn="8" row="2" class="dsquare borderstuff" onclick="Click(event)" id="2-8"></div>
+        </div>
+        <div id="Row3" class="row">
+            <div colomn="1" row="3" class="dsquare borderstuff" onclick="Click(event)" id="3-1"></div>
+            <div colomn="2" row="3" class="lsquare borderstuff" onclick="Click(event)" id="3-2"></div>
+            <div colomn="3" row="3" class="dsquare borderstuff" onclick="Click(event)" id="3-3"></div>
+            <div colomn="4" row="3" class="lsquare borderstuff" onclick="Click(event)" id="3-4"></div>
+            <div colomn="5" row="3" class="dsquare borderstuff" onclick="Click(event)" id="3-5"></div>
+            <div colomn="6" row="3" class="lsquare borderstuff" onclick="Click(event)" id="3-6"></div>
+            <div colomn="7" row="3" class="dsquare borderstuff" onclick="Click(event)" id="3-7"></div>
+            <div colomn="8" row="3" class="lsquare borderstuff" onclick="Click(event)" id="3-8"></div>
+        </div>
+        <div id="Row4" class="row">
+            <div colomn="1" row="4" class="lsquare borderstuff" onclick="Click(event)" id="4-1"></div>
+            <div colomn="2" row="4" class="dsquare borderstuff" onclick="Click(event)" id="4-2"></div>
+            <div colomn="3" row="4" class="lsquare borderstuff" onclick="Click(event)" id="4-3"></div>
+            <div colomn="4" row="4" class="dsquare borderstuff" onclick="Click(event)" id="4-4"></div>
+            <div colomn="5" row="4" class="lsquare borderstuff" onclick="Click(event)" id="4-5"></div>
+            <div colomn="6" row="4" class="dsquare borderstuff" onclick="Click(event)" id="4-6"></div>
+            <div colomn="7" row="4" class="lsquare borderstuff" onclick="Click(event)" id="4-7"></div>
+            <div colomn="8" row="4" class="dsquare borderstuff" onclick="Click(event)" id="4-8"></div>
+        </div>
+        <div id="Row5" class="row">
+            <div colomn="1" row="5" class="dsquare borderstuff" onclick="Click(event)" id="5-1"></div>
+            <div colomn="2" row="5" class="lsquare borderstuff" onclick="Click(event)" id="5-2"></div>
+            <div colomn="3" row="5" class="dsquare borderstuff" onclick="Click(event)" id="5-3"></div>
+            <div colomn="4" row="5" class="lsquare borderstuff" onclick="Click(event)" id="5-4"></div>
+            <div colomn="5" row="5" class="dsquare borderstuff" onclick="Click(event)" id="5-5"></div>
+            <div colomn="6" row="5" class="lsquare borderstuff" onclick="Click(event)" id="5-6"></div>
+            <div colomn="7" row="5" class="dsquare borderstuff" onclick="Click(event)" id="5-7"></div>
+            <div colomn="8" row="5" class="lsquare borderstuff" onclick="Click(event)" id="5-8"></div>
+        </div>
+        <div id="Row6" class="row">
+            <div colomn="1" row="6" class="lsquare borderstuff" onclick="Click(event)" id="6-1"></div>
+            <div colomn="2" row="6" class="dsquare borderstuff" onclick="Click(event)" id="6-2"></div>
+            <div colomn="3" row="6" class="lsquare borderstuff" onclick="Click(event)" id="6-3"></div>
+            <div colomn="4" row="6" class="dsquare borderstuff" onclick="Click(event)" id="6-4"></div>
+            <div colomn="5" row="6" class="lsquare borderstuff" onclick="Click(event)" id="6-5"></div>
+            <div colomn="6" row="6" class="dsquare borderstuff" onclick="Click(event)" id="6-6"></div>
+            <div colomn="7" row="6" class="lsquare borderstuff" onclick="Click(event)" id="6-7"></div>
+            <div colomn="8" row="6" class="dsquare borderstuff" onclick="Click(event)" id="6-8"></div>
+        </div>
+        <div id="Row7" class="row">
+            <div colomn="1" row="7" class="dsquare borderstuff" onclick="Click(event)" id="7-1"></div>
+            <div colomn="2" row="7" class="lsquare borderstuff" onclick="Click(event)" id="7-2"></div>
+            <div colomn="3" row="7" class="dsquare borderstuff" onclick="Click(event)" id="7-3"></div>
+            <div colomn="4" row="7" class="lsquare borderstuff" onclick="Click(event)" id="7-4"></div>
+            <div colomn="5" row="7" class="dsquare borderstuff" onclick="Click(event)" id="7-5"></div>
+            <div colomn="6" row="7" class="lsquare borderstuff" onclick="Click(event)" id="7-6"></div>
+            <div colomn="7" row="7" class="dsquare borderstuff" onclick="Click(event)" id="7-7"></div>
+            <div colomn="8" row="7" class="lsquare borderstuff" onclick="Click(event)" id="7-8"></div>
+        </div>
+        <div id="Row8" class="row">
+            <div colomn="1" row="8" class="lsquare borderstuff" onclick="Click(event)" id="8-1"></div>
+            <div colomn="2" row="8" class="dsquare borderstuff" onclick="Click(event)" id="8-2"></div>
+            <div colomn="3" row="8" class="lsquare borderstuff" onclick="Click(event)" id="8-3"></div>
+            <div colomn="4" row="8" class="dsquare borderstuff" onclick="Click(event)" id="8-4"></div>
+            <div colomn="5" row="8" class="lsquare borderstuff" onclick="Click(event)" id="8-5"></div>
+            <div colomn="6" row="8" class="dsquare borderstuff" onclick="Click(event)" id="8-6"></div>
+            <div colomn="7" row="8" class="lsquare borderstuff" onclick="Click(event)" id="8-7"></div>
+            <div colomn="8" row="8" class="dsquare borderstuff" onclick="Click(event)" id="8-8"></div>
+        </div>
+    </div>
+</body>

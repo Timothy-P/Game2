@@ -1,0 +1,82 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    background-color: burlywood;
+}
+#Board {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+.highlight {
+    transition-duration: 0.5s;
+    background-color: lightblue;
+}
+.row {
+    display: flex;
+}
+.borderstuff {
+    border-style: inset;
+}
+.dsquare {
+    background-color: black;
+    border-color: white;
+    border-width: 10px;
+    width: 50px;
+    height: 50px;
+    transition-duration: 0.5s;
+}
+.dsquare:hover {
+    background-color: darkslategray;
+    transition-duration: 0.5s;
+    border-color: lightslategray;
+}
+.lsquare {
+    background-color: white;
+    border-color: black;
+    border-width: 10px;
+    width: 50px;
+    height: 50px;
+    transition-duration: 0.5s;
+}
+
+.lsquare:hover {
+    background-color: lightslategray;
+    transition-duration: 0.5s;
+    border-color: darkslategray;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(8, 0.5fr);
+    gap: 0px;
+    grid-auto-rows: minmax(0px, auto);
+    grid-auto-columns: minmax(0px, auto);
+}
+
+#Row1 {
+    grid-row: 1
+}
+#Row2 {
+    grid-row: 2
+}
+#Row3 {
+    grid-row: 3
+}
+#Row4 {
+    grid-row: 4
+}
+#Row5 {
+    grid-row: 5
+}
+#Row6 {
+    grid-row: 6
+}
+#Row7 {
+    grid-row: 7
+}
+#Row8 {
+    grid-row: 8
+}

@@ -6,4 +6,6 @@ Check back later for more updates.
 
 ### Thoughts
 
-This feels like it's gonna be pain<sub>2</sub>, so get ready for an adventure. [If you find any issues, please report them to me.](https://github.com/Timothy-P/Game2/issues)
+I'm currently at a standstill. I lack the required tools to be testing, so I can't continue. I doubt anyone will see this or assist me, so I'll just have to leave this project to rest for a while.
+
+[If you find any issues, please report them to me.](https://github.com/Timothy-P/Game2/issues)
